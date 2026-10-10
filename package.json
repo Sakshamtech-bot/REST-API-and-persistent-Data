@@ -1,0 +1,19 @@
+{
+  "name": "rest-api-and-persistent-data",
+  "version": "1.0.0",
+  "description": "REST API for internship records with validation, pagination and SQLite persistence",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "seed": "node data/seed.js"
+  },
+  "dependencies": {
+    "better-sqlite3": "^13.0.3",
+    "cors": "^2.8.6",
+    "dotenv": "^16.4.7",
+    "express": "^5.2.1",
+    "sqlite": "^5.1.1",
+    "sqlite3": "^5.1.7"
+  }
+}
